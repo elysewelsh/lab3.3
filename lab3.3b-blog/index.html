@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"/>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Frontend Mentor | Blog preview card</title>
+  <style>
+    @font-face {
+      font-family: Figtree;
+      src: url(./fonts/static/Figtree-Medium.ttf);
+    }
+
+    @font-face {
+      font-family: Figtree;
+      src: url(./fonts/static/Figtree-ExtraBold.ttf);
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+
+<body class="bg-[#F4D04E]">
+
+<main class="flex items-center justify-center">
+
+  <!-- The card starts at this div below -->
+  <div class="bg-[#FFFFFF] rounded-[20px] w-[384px] h-[522px] flex flex-col justify-evenly p-[24px] gap-y-[24px] border-[1px] shadow-[8px_8px_0px_0px_rgb(60,60,60)] max-sm:w-[327px] max-sm:h-[501px]">
+
+    <img src="./images/illustration-article.svg" class="rounded-[10px] w-[339px] h-[200px] max-sm:w-[279px] max-sm:h-auto" alt=""/>
+
+      <content class="gap-y-[12px] w-[336px] h-[194px] flex flex-col max-sm:w-[279px] max-sm:h-[173px]">
+
+          <div class="w-[82px] h-[29px] flex justify-center rounded-[4px] py-[4px] bg-[#F4D04E] font-[Figtree] font-bold text-[14px] leading-[150%] tracking-[0px] m-[0px] max-sm:w-[73px] max-sm:h-[26px] max-sm:text-[12px]">
+          Learning
+          </div>
+
+          <p class="font-[Figtree] text-[14px] leading-[150%] tracking-[0px] w-[143px] h-[31px] max-sm:w-[123px] max-sm:h-[18px] max-sm:text-[12px]">
+            Published 21 Dec 2023
+          </p>
+
+          <p class="font-[Figtree] font-bold text-[24px] leading-[150%] tracking-[0px] w-[336px] h-[36px] max-sm:w-[279px] max-sm:h-[30px] max-sm:text-[20px]">
+            HTML & CSS foundations
+          </p>
+
+          <p class="font-[Figtree] text-[#6B6B6B] text-[16px] leading-[150%] tracking-[0px] w-[336px] h-[72px] max-sm:w-[279px] max-sm:h-[63px] max-sm:text-[14px]">
+            These languages are the backbone of every website, defining structure, content, and presentation.
+          </p>
+          
+      </content>
+
+      <!-- This is the author section -->
+      <div class="w-[129px] h-[32px] flex flex-row items-center">
+       
+        <img src="./images/image-avatar.webp" class="w-[32px] mr-[12px]" alt="author photo"/>
+        
+        <p class="font-[Figtree] font-bold text-[14px] leading-[150%] tracking-[0px] w-auto">
+          Greg Hooper
+        </p>
+
+      </div>
+      <!-- end of author div -->
+
+  </div>
+  <!-- end of card div -->
+
+  </main>
+    
+  <footer class="mt-[50px] text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/elysewelsh">Elyse Welsh</a>.
+  <footer>
+
+</body>
+
+</html>
